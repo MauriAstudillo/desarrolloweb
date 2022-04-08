@@ -1,7 +1,6 @@
 # desarrolloweb
 
 Tareas Moisés:
-Index, Carro y Login
 <p>Index</p>
 <p>Login</p>
 <p>Carro</p>
