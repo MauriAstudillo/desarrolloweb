@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre nosotros</title>
+    <title>admin añadir y modificar</title>
     <link rel="stylesheet" href="css/colores.css">
     <!-- Latest compiled and minified CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -12,6 +13,7 @@
     <!-- Latest compiled JavaScript -->
     <script src="js/bootstrap.bundle.min.js"></script>
 </head>
+
 <body style="background-color: rgb(223, 223, 192);">
     <nav class="navbar navbar-expand-sm verde navbar-light">
         <div class="container-fluid row">
@@ -24,7 +26,7 @@
                 <div class="col-sm-1 text-center">
                     <li class="nav-item">
                         <a href="index.html">
-                            <img src="images/pag_principal.jpg" alt="Pag. Principal" style="width:40px;" class="rounded-pill">
+                            <img src="images/pag_principal.jpg" alt="Pag. Principal" style="width:40px;"class="rounded-pill">
                         </a>
                     </li>
                 </div>
@@ -67,18 +69,52 @@
             </ul>
         </div>
     </nav>
-    <div class="row mt-5 ms-5 me-5">
-        <div class="col-lg-4"><div class="jumbotron-fluid mt-2">
-            <h1 class="display-4">Sobre nosotros</h1>
-            <hr class="my-4">
-            <p>Nuestro grupo, llamado () es un grupo llevado netamente por nuestro aprecio por los animales, nos dedicamos a vender y importar productos variados para la vida sana de las mascotas.</p>
-            <hr class="my-4">
-            <h6>¡Nuestras redes sociales!</h6>
-            <img src="images/facebooklogo.png" class="rounded" alt="Facebook"><img src="images/twitterlogo.png" class="rounded" alt="Twitter"><img src="images/instagramlogo.png" class="rounded" alt="Instagram">
-          </div></div>
-        <div class="col-sm-8"><img src="images/logogatogrande.png" class="rounded ms-5" alt="Logogrande"></div>
-      </div>
-
-
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-3 mt-3">
+            <div class="dropdown">
+                <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown">
+                    Añadir Producto a
+                </button>
+                <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Perro</a></li>
+                <li><a class="dropdown-item" href="#">Gato</a></li>
+                </ul>
+                <div class="mb-3 mt-3">
+                    <label for="email" class="form-label">Nombre del Producto:</label>
+                    <input type="email" class="form-control" id="name_producto" placeholder="Ingrese Nombre del Producto" name="name_producto">
+                </div>
+                <div class="mb-3 mt-3">
+                    <label for="email" class="form-label">Precio del Producto:</label>
+                    <input type="email" class="form-control" id="price" placeholder="Ingrese Precio del Producto" name="price">
+                </div>
+                <div class="mb-3 mt-3">
+                    <label for="email" class="form-label">Stock Disponible:</label>
+                    <input type="email" class="form-control" id="stock" placeholder="Ingrese Stock Disponible" name="stock">
+                </div>
+                <div class="mb-3 mt-3">
+                    <label for="email" class="form-label">Descripción:</label>
+                    <input type="email" class="form-control" id="description" placeholder="Ingrese Descripción" name="description">
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-6 mt-3">
+            <h1>Añadir imagen del producto:</h1>
+            <a href="#">
+                <img src="images/añadir_imagen.jpg" alt="Añadir imagen" width="400">
+            </a>
+            <div class="row">
+                <div class="col-sm-6 mt-5 text-start">
+                    <a class="btn btn-success" href="index.html">Cerrar Sesión Admin</a>
+                </div>
+                <div class="col-sm-6 mt-5 text-end">
+                    <a class="btn btn-success" href="#">Añadir o Modificar Producto</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-1"></div>
+    </div>
 </body>
+
 </html>

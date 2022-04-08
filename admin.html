@@ -13,7 +13,7 @@
     <script src="js/bootstrap.bundle.min.js"></script>
 </head>
 
-<body>
+<body style="background-color: rgb(223, 223, 192);">
     <nav class="navbar navbar-expand-sm verde navbar-light">
         <div class="container-fluid row">
             <ul class="navbar-nav">
@@ -24,7 +24,7 @@
                 </div>
                 <div class="col-sm-1 text-center">
                     <li class="nav-item">
-                        <a href="#">
+                        <a href="index.html">
                             <img src="images/pag_principal.jpg" alt="Pag. Principal" style="width:40px;" class="rounded-pill">
                         </a>
                     </li>
@@ -34,11 +34,11 @@
                     <li class="nav-item dropdown">
                         <a class="btn btn-outline-dark dropdown-toggle" data-bs-toggle="dropdown" href="#">Productos</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Perro</a></li>
-                            <li><a class="dropdown-item" href="#">Gato</a></li>
+                            <li><a class="dropdown-item" href="productoperro.html">Perro</a></li>
+                            <li><a class="dropdown-item" href="productogato.html">Gato</a></li>
                         </ul>
                     </li>
-                    <a class="btn btn-outline-dark" href="#">Sobre Nosotros</a>
+                    <a class="btn btn-outline-dark" href="sobrenosotros.html">Sobre Nosotros</a>
                 </div>
                 <div class="col-sm-1"></div>
                 <div class="col-sm-2">
@@ -53,14 +53,14 @@
                 </div>
                 <div class="col-sm-1 text-center">
                     <li class="nav-item">
-                        <a href="#">
+                        <a href="login.html">
                             <img src="images/icono_cuenta.jpg" alt="Cuenta" style="width:40px;" class="rounded-pill">
                         </a>
                     </li>
                 </div>
                 <div class="col-sm-1 text-center">
                     <li class="nav-item">
-                        <a href="#">
+                        <a href="carro.html">
                             <img src="images/icono_carrito.jpg" alt="Carrito" style="width:40px;" class="rounded-pill">
                         </a>
                     </li>
@@ -68,9 +68,47 @@
             </ul>
         </div>
     </nav>
-    <a class="btn btn-success" href="#">Iniciar Sesión como Admin</a>
-    <a class="btn btn-success" href="#">Iniciar Sesión como Admin</a>
-    <a class="btn btn-success" href="#">Iniciar Sesión como Admin</a>
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-8 mt-3">
+            <div class="list-group">
+                <a href="#" class="list-group-item">Peluche perro $2500
+                    <input class="form-check-input float-end" type="checkbox" name="producto 1">
+                </a>
+                <a href="#" class="list-group-item">Galletas para perro $3000
+                    <input class="form-check-input float-end" type="checkbox" name="producto 2">
+                </a>
+                <a href="#" class="list-group-item">Correa de perro $2000
+                    <input class="form-check-input float-end" type="checkbox" name="producto 3">
+                </a>
+                <a href="#" class="list-group-item">Raton masticable $1000
+                    <input class="form-check-input float-end" type="checkbox" name="producto 4">
+                </a>
+                <a href="#" class="list-group-item">Correa de arnés $3000
+                    <input class="form-check-input float-end" type="checkbox" name="producto 5">
+                </a>
+                <a href="#" class="list-group-item">Snack para gato $4500
+                    <input class="form-check-input float-end" type="checkbox" name="producto 6">
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-2 mt-3">
+            <a class="btn btn-success" href="index.html">Cerrar Sesión Admin</a>
+        </div>
+    </div>
+    <div class="row fixed-bottom">
+        <div class="col-sm-6"></div>
+        <div class="col-sm-2">
+            <a class="btn btn-success" href="#">Eliminar Producto(s) Elegidos</a>
+        </div>
+        <div class="col-sm-2">
+            <a class="btn btn-success" href="adminañadymod.html">Modificar Producto(s) Elegidos</a>
+        </div>
+        <div class="col-sm-2">
+            <a class="btn btn-success" href="adminañadymod.html">Añadir Producto</a>
+        </div>
+    </div>
 </body>
 
 </html>
