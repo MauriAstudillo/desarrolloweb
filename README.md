@@ -2,6 +2,11 @@
 
 Tareas Moisés:
 Index, Carro y Login
+<p>Index</p>
+<p>Login</p>
+<p>Carro</p>
+<p>Admin</p>
+<p>Admin Añadir y/o Modificar</p>
 
 
 <h1>Tareas Mauricio:</h1>
